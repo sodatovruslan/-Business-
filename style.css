@@ -321,6 +321,52 @@ margin-top: 200px;
 	color: white;
 	border: none;
 }
+.ButFaqs{
+	font-size: 14px;
+	font-weight: 400;
+	
+	width: 76px;
+	height: 36px;
+	background: white;
+}
+.pCommon{
+	font-size: 60px;
+	font-weight: 400;
+	color:#151515 ;
+}
+.pOnline{
+	font-size: 18px;
+	font-weight: 400;
+	color: #151515;
+	line-height: 26px;
+	width: 523px;
+}
+.pTeams{
+	font-size: 20px;
+	font-weight: 800;
+	color:#151515 ;
+}
+.pContributors{
+	font-size: 18px;
+	font-weight: 400;
+	color: #151515;
+	width: 760px;
+	line-height: 26px;
+}
+.hr{
+	width: 800px;
+}
+.sixthChild{
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+.SectionSixth{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 100px;
+}
 @media (max-width:510px) {
 	.pAbout{
 		display: none;
@@ -431,5 +477,28 @@ margin-top: 30px;
 	.FifthChild{
 		padding: 20px;
 		margin: auto;
+	}
+	.SectionSixth{
+		flex-direction: column;
+	}
+	.hr{
+		width: 300px;
+	}
+	.pOnline{
+		width: 320px;
+
+	}
+	.pContributors{
+		width: 320px;
+	}
+	.imgiLL{
+		width: 360px;
+		height: 372px;
+	}
+	.sixthChild{
+		margin-left: 10px;
+	}
+	.pCommon{
+		font-size: 28px;
 	}
 }
