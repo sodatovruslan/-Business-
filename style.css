@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap');
+*
+{
+	margin: 0;
+font-family: "Tektur", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:  "wdth" 100;
+}
+.headerLegend{
+	display: flex;
+	justify-content: space-between;
+	width: 95%;
+	margin: auto;
+	margin-top: 15px;
+}
+.headerchild1{
+	display: flex;
+	align-items: center;
+gap: 30px;
+}
+.headerchild2{
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+.butSignUp{
+width: 145px;
+height: 50px;
+background-color: black;
+color: white;
+font-size:16px 
+;
+font-weight: 400;
+border: none;
+border-radius: 3px;
+
+}
+.pAbout{
+font-size: 18px;
+font-weight: 400;
+color:#151515;
+}
+.BlackBut{
+	display: none;
+}
+@media (max-width:510px) {
+	.pAbout{
+		display: none;
+	}
+	.butSignUp{
+		display: none;
+	}
+	.BlackBut{
+		display: block;
+	}
+	.headerLegend{
+		width: 93%;
+	}
+}
