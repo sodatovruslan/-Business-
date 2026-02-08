@@ -22,7 +22,7 @@ gap: 30px;
 .headerchild2{
 	display: flex;
 	align-items: center;
-	gap: 20px;
+	gap: 40px;
 }
 .butSignUp{
 width: 145px;
@@ -44,6 +44,56 @@ color:#151515;
 .BlackBut{
 	display: none;
 }
+.inputDad{
+	display: flex;
+	border: 2px solid rgba(128, 128, 128, 0.718);
+	width: 478px;
+		border-radius: 5px;
+}
+.inputchild{
+	width: 300px;
+border: none;
+border-radius: 5px;
+
+}
+.butget{
+	width: 178px;
+	height: 50px;
+	border: none;
+	border-radius: 5px;
+	color: white;
+	background-color: #151515;
+}
+.pAlways{
+	font-size: 70px;
+	font-weight: 400;
+	color:#151515 ;
+	width: 800px;
+}
+.pBetter{
+	font-size: 18px;
+	font-weight: 400;
+	color: #151515;
+	width: 565px;
+}
+.imagesOfBank{
+	display: flex;
+	gap: 40px;
+}
+.sectionFirstChild{
+	display: flex;
+	flex-direction: column;
+	row-gap: 30px;
+}
+.SectionFirst{
+	display: flex;
+	align-items: center;
+	width: 95%;
+	margin: auto;
+	justify-content: space-between;
+	margin-top: 40px;
+}
+
 @media (max-width:510px) {
 	.pAbout{
 		display: none;
@@ -56,5 +106,25 @@ color:#151515;
 	}
 	.headerLegend{
 		width: 93%;
+	}
+	.SectionFirst{
+		flex-direction: column;
+		margin: auto;
+		margin-top: 40px;
+	}
+	.pAlways{
+		font-size: 28px;
+		width: 319px;
+	}
+	.pBetter{
+		width: 318px;
+		font-size: 18px;
+	}
+	.inputDad{
+		width: 318px;
+	}
+	.imgMan{
+		width: 330px;
+		height: 348px;
 	}
 }
