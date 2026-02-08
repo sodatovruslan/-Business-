@@ -171,8 +171,38 @@ border-radius: 5px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	gap: 30px;
+	gap: 140px;
 	margin-top: 100px;
+}
+.Prices{
+	width: 496px;
+	font-size: 18px;
+	font-weight: 400;
+	color: #151515;
+}
+.SectionFourth{
+	display: flex;
+	align-items: center;
+	
+	width: 95%;
+	margin: auto;
+	justify-content: space-between;
+margin-top: 200px;
+	
+}
+.textBott{
+	display: flex;
+	flex-direction: column;
+	align-items: end;
+	text-align: end;
+	gap: 20px;
+	
+	
+}
+.pSelect{
+	font-size: 60px;
+	font-weight: 400;
+	color: #151515;
 }
 @media (max-width:510px) {
 	.pAbout{
@@ -246,5 +276,31 @@ border-radius: 5px;
 	}
 	.butHow{
 		margin-left: 10px;
+	}
+	.SectionFourth{
+		flex-direction: column;
+		margin-top: 60px;
+		flex-direction: column-reverse;
+	}
+	.imgMAnOnThePag{
+		width: 300px;
+		height: 298px;
+margin-top: 30px;
+	}
+	.textBott{
+		align-items: start;
+		text-align: start;
+		margin-right: 70px;
+		
+	}
+	.pSelect{
+		font-size: 28px;
+		width: 275px;
+	}
+	.Prices{
+		font-size: 18px;
+		
+		width:320px ;
+
 	}
 }
