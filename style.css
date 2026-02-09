@@ -367,6 +367,66 @@ margin-top: 200px;
 	justify-content: center;
 	margin-top: 100px;
 }
+.Footer{
+	background-color: #151515;
+}
+.pWant{
+	font-size: 20px;
+	font-weight: 800;
+	color: white;
+	width: 320px;
+}
+.inputFooter{
+	width: 300px;
+border: none;
+background-color: black;
+border-radius: 5px;
+}
+.butFooter{
+	font-size: 18px;
+	font-weight: 400;
+	color: #151515;
+	width: 176px;
+	height: 52px;
+	border-radius: 5px;
+}
+.FlexFooter{
+	display: flex;
+	border: 1px solid grey;
+	width: 473px;
+	border-radius: 5px;
+}
+.pFooter{
+	font-size: 18px;
+	font-weight: 400;
+	color: #FFFFFF;
+}
+.FooterChild{
+	display: flex;
+	flex-direction: column;
+	row-gap: 20px;
+}
+.pInfo{
+	font-size: 18px;
+	font-weight: 400;
+	color:#FFFFFF ;
+}
+.pEmail{
+	font-size: 20px;
+	font-weight: 800;
+	color: #FFFFFF;
+}
+.Footer{
+	display: flex;
+	justify-content: space-around;
+padding: 20px;
+}
+.EmailFlex{
+	display: flex;
+	flex-direction: column;
+	row-gap: 15px;
+}
+
 @media (max-width:510px) {
 	.pAbout{
 		display: none;
@@ -501,4 +561,16 @@ margin-top: 30px;
 	.pCommon{
 		font-size: 28px;
 	}
+	.Footer{
+		padding: 10px;
+		flex-direction: column;
+	}
+	.FlexFooter{
+		width: 320px;
+	}
+	
+	.EmailFlex{
+		margin-top: 20px;
+	}
+	
 }
